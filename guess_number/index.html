@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="box_1">
+        <form onsubmit="return guess_number()">
+            <h1>Guess The Number</h1>
+            <p>Pick a number between 0 and 100</p>
+            <input type="number" id="guess" name="guess" min="0" max="100" step="1" value="0">
+            <input id="btn" type="submit" value="submit"><br><br>
+            <label id="msg" color="white"></label>
+        </form>
+    </section>
+</body>
+</html>

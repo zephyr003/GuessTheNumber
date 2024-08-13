@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#box_1 {
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(228, 106, 116);
+    border-radius: 8px; 
+}
+
+#box_1 h1 {
+    margin-bottom: 10px;
+}
+
+#btn {
+    color: antiquewhite;
+    border-radius: 5px;
+    color: black;
+}
